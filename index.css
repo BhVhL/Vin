@@ -1,0 +1,112 @@
+.h2-banner{
+    font-size: 1.5rem;
+}
+
+.bg-img-banner{
+    display: flex;
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    color: lightgoldenrodyellow;
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+}
+.second-article{
+    display: flex;
+    flex-direction: row;
+}
+.first-second-article{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: auto;
+    padding: 5rem;
+}
+.secondary-second-article{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.img-second-article{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    border: 3px solid darkred;
+}
+.h3-second-article{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.thirty-article {
+    display: flex;
+    flex-direction: column;
+}
+.h2-thirty-article{
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.imge-thirty-article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img-thirty-article{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: 3px solid darkred;
+    border-radius: 5px;
+}
+.text-thirty-article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.first-thirty-article{
+    width: 349px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+.second-thirty-article{
+    width: 349px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+.thirty-thirty-article{
+    width: 349px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+.h3-thirty-article{
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+.bg-img-banner-foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/foot.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: auto;
+}
+.button-foot{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: darkred;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+    border: solid darkred;
+}
