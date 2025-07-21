@@ -1,0 +1,50 @@
+.h2-div{
+    text-align: center;
+    margin-top: 3%;
+}
+.section-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.form-fieldset{
+    width: 30%;
+}
+fieldset{
+    border-color: darkred;
+}
+.fieldset-form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.text-padding{
+    padding-left: 5%;
+    margin-bottom: 0.5rem;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5rem;
+}
+.radio{
+    margin-right: 7rem;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.space{
+    margin-right: 6rem;
+}
+.label{
+   margin-bottom: 0.5rem;
+}
+.bt-submit{
+    border-color: darkred;
+    background-color: goldenrod;
+}
+.bt-submit:hover{
+    background-color: gold;
+}

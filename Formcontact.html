@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Mon.css">
+    <link rel="stylesheet" href="Formcontact.css">
+    <title>WorldWine&You</title>
+</head>
+<body>
+    <header class="header-nav">
+        <div class="container">
+            <img class="logo-header" src="img/Logo WW&Y.svg" alt=""  >
+        </div>
+        <nav class="header-ul">
+            <ul class="header-list">
+                <il class="il"><a href="index.html">Accueil</a></il>
+                <il class="il"><a href="#">Boutique</a></il>
+                <il class="il"><a href="Formcontact.html">Rejoignez-Nous</a></il>
+                <il class="il"><a href="nosengagements.html">Nos Engagements</a></il>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <h2 class="h2-div">Afin que votre commande vous parvienne directement à domicile.</h2>
+        </div>
+        <section class="section-form">
+            <form class="form-fieldset" action="submit" method="get">
+                <fieldset class="fieldset-form">
+                    <div class="col-all">
+                        <h3 class="text-padding">Civilité</h3>
+                        <div class="row">
+                            <div class="radio">
+                                <input type="radio" name="Madame" id="Madame" value="Madame">
+                                <label for="Madame">Madame</label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" name="Monsieur" id="Monsieur" value="Monsieur">
+                                <label for="Monsieur">Monsieur</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="label">
+                                <label class="space" for="Nom">Nom</label>
+                                <input type="text" name="Nom" id="Nom" placeholder="Dubois" autofocus style="width: 90%;height: 2rem;">
+                            </div>
+                            <div class="label">
+                                <label for="Prenom">Prénom</label>
+                                <input type="text" name="Prénom" id="Prénom" placeholder="Jean-Philippe" style="width: 90%;height: 2rem;">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h3  class="text-padding">Adresse de livraison</h3>
+                            <div class="label">
+                                <label for="rue">N° / Rue</label>
+                                <input type="text" name="rue" id="rue" placeholder="1 rue du maréchal foch" style="width: 90%;height: 2rem;">
+                            </div>
+                            <div class="label">
+                                <label class="space" for="pays">Pays</label>
+                                <input type="text" name="pays" id="pays" placeholder="France" style="width: 90%;height: 2rem;">
+                            </div>
+                            <div class="label">
+                                <label for="postal">Code Postal, Ville</label>
+                                <input type="text" name="postal" id="postal" placeholder="12500, Leprier" style="width: 90%;height: 2rem;">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h3  class="text-padding">Pour recevoir une confirmation, suivre votre commande et facilité la livraison</h3>
+                            <div class="label">
+                                <label class="space" for="email">E-mail</label>
+                                <input type="email" name="email" id="email" placeholder="vendredi@soir.fr" style="width: 90%;height: 2rem;">
+                            </div>
+                            <div class="label">
+                                <label  for="tel">Télephone</label>
+                                <input type="tel" name="tel" id="tel" placeholder="00.11.22.33.44" style="width: 90%;height: 2rem;">
+                            </div>
+                        </div>
+                        <input class="bt-submit" type="submit" name="submit" id="submit" value="Transmettre" style="width: 90%; height: 1.5rem;">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+    
+</body>
+</html>
