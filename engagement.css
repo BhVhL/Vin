@@ -96,3 +96,6 @@
     border-radius: 5px;
     border: solid darkred;
 }
+.button-foot:hover{
+    background-color: goldenrod;
+}

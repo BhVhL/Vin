@@ -33,3 +33,10 @@ body{
     margin-right: 1rem;
     margin-left: 1rem;
 }
+a{    
+    color: darkred;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
