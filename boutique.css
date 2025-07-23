@@ -1,0 +1,47 @@
+.h2-banner{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.h2-banner:hover{
+    font-size: 2.5rem;
+}
+.bg-img-banner{
+    display: flex;
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    color: lightgoldenrodyellow;
+    height: 350px;
+    background-size: cover;
+    width: 99.7%;
+}
+
+
+
+
+
+.bg-img-banner-foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/foot.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    width: auto;
+}
+.button-foot{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: darkred;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+    border: solid darkred;
+}
+.button-foot:hover{
+    background-color: goldenrod;
+}
